@@ -5,7 +5,7 @@ try:
 except ValueError:
     # Validation error.
     print("Please provide valid input.")
-    # Return to the start of the loop.
+
 else:
     if Height <= 0 or Weight <= 0:
         print("Your input must not be zero or less.")
